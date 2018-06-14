@@ -13,7 +13,7 @@ public class DrawingBuilder {
     public DrawingBuilder(double x, double y){
         this.x = x;
         this.y = y;
-        components = new ArrayList<>();
+        this.components = new ArrayList<>();
     }
 
     public DrawingBuilder addFigure(Figure f){
