@@ -22,6 +22,6 @@ public class DrawingBuilder {
     }
 
     public Drawing buildDrawing(){
-        return new Drawing(x,y, Collections.unmodifiableList(components));
+        return new Drawing(x,y, components);
     }
 }
